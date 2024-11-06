@@ -13,6 +13,11 @@ Cette tâche peut se décomposer en trois parties
 3. Justifier vos choix techniques (il faut bien convaincre vos futurs investisseurs !)
 4. Bonus: Indiquez quel service AWS vous avez utilisé pour uploader vos images Docker et les rendre disponibles dans votre projet AWS
 
+**EXEMPLES DE SCHÉMAS**
+https://farzanaafrintisha.medium.com/basics-of-aws-architecture-diagram-278563b9cfd1
+https://developerck.com/aws-architecture-diagrams/
+https://docs.aws.amazon.com/whitepapers/latest/web-application-hosting-best-practices/an-aws-cloud-architecture-for-web-hosting.html
+
 **CONTRAINTES**
 - Vous n'êtes pas à l'aise avec l'administration d'infrastructure, vous opterez donc pour une solution **managée** et **serverless**
 - Vous souhaitez que votre application soit déployée sur **deux zones** afin de prévenir à tout désastre naturel pouvant frapper les serveurs (même Jeff Bezos ne peut rien face au dérèglement climatique)
