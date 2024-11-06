@@ -14,8 +14,8 @@ Cette tâche peut se décomposer en trois parties
 4. Bonus: Indiquez quel service AWS vous avez utilisé pour uploader vos images Docker et les rendre disponibles dans votre projet AWS
 
 **EXEMPLES DE SCHÉMAS**
-https://farzanaafrintisha.medium.com/basics-of-aws-architecture-diagram-278563b9cfd1
-https://developerck.com/aws-architecture-diagrams/
+https://farzanaafrintisha.medium.com/basics-of-aws-architecture-diagram-278563b9cfd1 \n
+https://developerck.com/aws-architecture-diagrams/ \n
 https://docs.aws.amazon.com/whitepapers/latest/web-application-hosting-best-practices/an-aws-cloud-architecture-for-web-hosting.html
 
 **CONTRAINTES**
