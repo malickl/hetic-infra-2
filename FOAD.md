@@ -21,3 +21,7 @@ Cette tâche peut se décomposer en trois parties
 1. Créez un fichier foad_<nom1>_<nom_2>.md dans votre fork
 2. Répondez aux questions et insérez votre schéma dans ce fichier
 3. Commitez et pushez ce fichier
+
+Pour insérer une image dans un fichier markdown
+https://stackoverflow.com/questions/41604263/how-do-i-display-local-image-in-markdown
+https://marinegeo.github.io/2018-08-10-adding-images-markdown/
