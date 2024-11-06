@@ -30,3 +30,34 @@ Cette tâche peut se décomposer en trois parties
 Pour insérer une image dans un fichier markdown
 https://stackoverflow.com/questions/41604263/how-do-i-display-local-image-in-markdown
 https://marinegeo.github.io/2018-08-10-adding-images-markdown/
+
+
+
+## Reponse
+
+
+# 1. Sélection des composants AWS
+
+Pour déployer notre application web comprenant un **frontend** et un **backend** en utilisant des services managés et sans serveur, voici les composants choisis :
+
+- **Amazon Elastic Container Service (ECS) avec Fargate** : Ce service permet de déployer nos conteneurs Docker sans gérer les serveurs en arrière-plan. Fargate prend en charge l’infrastructure sous-jacente, simplifiant ainsi l'administration.
+
+- **Amazon CloudFront** : Ce service de distribution de contenu rapproche les données des utilisateurs, ce qui permet de réduire les temps de chargement si l’application prend de l’ampleur.
+
+- **Amazon Route 53** : Service DNS qui gère le nom de domaine de notre application, redirigeant le trafic utilisateur vers les bonnes zones AWS et facilitant la configuration d’un domaine personnalisé.
+
+# 2. Schéma d’infrastructure
+
+![Schéma de l'infrastructure AWS](Architecture_AWS.drawio.png)
+
+# 3. Justification des choix
+
+Ces choix techniques permettent une approche **serverless** (ECS avec Fargate pour éviter la gestion directe des serveurs) et **managée**. En optant pour une infrastructure multi-zone, on réduit les risques de panne en cas d’indisponibilité d’un data center.
+
+- **Fargate** : Simplifie la gestion des conteneurs en évitant la configuration manuelle des serveurs.
+- **CloudFront** : Assure des performances optimales en rapprochant les contenus de nos utilisateurs.
+- **Route 53** : Simplifie la configuration du domaine et le routage, ce qui est pratique pour gérer le trafic de manière fluide.
+
+# 4. Bonus : Service pour stocker les images Docker
+
+Pour rendre nos images Docker disponibles dans AWS, on utilise **Amazon Elastic Container Registry (ECR)**, un dépôt d’images Docker sécurisé et intégré avec ECS, ce qui facilite le déploiement.
